@@ -60,7 +60,7 @@ int main(int argc, char** argv)
 			printf("Network address is incorrect! The answer is %d.%d.%d.%d\n", ip[0] & subnet[0], ip[1] & subnet[1], ip[2] & subnet[2], ip[3] & subnet[3]);
 
 		/* is bcast correct? */
-		if (((ip[2] | tmpsubnet2[tmp][0]) == ansBcast[2]) && ((ip[3] | tmpsubnet2[tmp][1]) == ansBcast[3]))
+		if (ansBcast[0] == ip[0] && ansBcast[1] == ip[1] && ((ip[2] | tmpsubnet2[tmp][0]) == ansBcast[2]) && ((ip[3] | tmpsubnet2[tmp][1]) == ansBcast[3]))
 		{
 			correctAnswers++;
 			flag++;
