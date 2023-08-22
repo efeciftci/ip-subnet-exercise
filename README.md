@@ -10,4 +10,4 @@ $ python3 mainApp.py
 
 You need to have Python 3.x and Qt5/PyQt5 (or Qt4/PyQt4 on older systems) installed on your computer in order to run it.
 
-![Screenshot_20230818_150029](https://github.com/efeciftci/ip-subnet-exercise/assets/3438150/6f33cd03-1142-42a1-9c41-7390ec34ac77)
+![Screenshot_20230822_145356](https://github.com/efeciftci/ip-subnet-exercise/assets/3438150/f51020e6-682b-4fcb-a1f5-6e71fc797be2)
